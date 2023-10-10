@@ -1,5 +1,9 @@
 /** @type {import('@remix-run/dev').AppConfig} */
 export default {
+  future: {
+    v2_normalizaFormMethod: true
+  },
+  tailwind: true,
   ignoredRouteFiles: ["**/.*"],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
